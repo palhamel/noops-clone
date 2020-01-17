@@ -68,7 +68,23 @@ nav a {
   text-align: center;
 }
 
+/* CHALLENGES CONTAINER */
 
+.challenges-container {
+  background: white;
+  color: black;
+  text-align: center;
+  padding: 24px;
+}
+
+.challenges {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.challenges a {
+  background: #fafafa;
+}
 
 /* MEDIA QUERIES FOR RESPONSIVE DESIGN */
 
@@ -97,4 +113,3 @@ nav a {
     width: 50%;
   }
 }
-
