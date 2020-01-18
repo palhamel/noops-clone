@@ -122,10 +122,18 @@ nav a {
   margin-bottom: 32px;
 }
 
+.challenges a:hover {
+  background: #f1fcf8;
+  box-shadow: 6px 6px 0 0 #dbece6;
+}
+
 .challenges a div {
   border: 2px solid #c2cbc8;
   border-radius: 16px;
-  
+}
+
+.challenges a img {
+  width: 80%;
 }
 
 .circles {
@@ -170,7 +178,16 @@ nav a {
     flex-direction: row;
     align-items: center;
   }
+
+
   .welcome-container img {
     width: 50%;
   }
+  .challenges a {
+    width: 25%;
+    flex-grow: 1;
+    margin: 16px;
+  }
+
 }
+
