@@ -17,7 +17,7 @@ h3 {
 h4 {
   font-size: 32px;
   font-weight: 400;
-  margin-top: -16px;
+  margin-top: -20px;
   margin-bottom: 16px;
 }
 
@@ -76,17 +76,13 @@ footer {
   padding: 0 0px;
 }
 
-.footer-nav {
-
-}
-
 .footer-nav a {
   color: #3e7cca;
   padding: 100px 16px;
-  
+  align-items: center;
 }
 
-/* Work in progress) */
+/* ******************** */
 
 
 /* WELCOME SECTION */
@@ -146,6 +142,11 @@ footer {
   border-radius: 16px;
 }
 
+.challenges a div p {
+  font-size: 13px;
+  padding: 2px;
+}
+
 .challenges a img {
   width: 80%;
 }
@@ -161,7 +162,7 @@ footer {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: rgb(215, 0, 0);
+  background: rgb(230, 0, 0);
 }
 
 .circles span:last-child {
